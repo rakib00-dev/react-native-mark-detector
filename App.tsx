@@ -1,13 +1,20 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import React from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
-    <View>
-      <TouchableOpacity>
+    <SafeAreaView>
+      <ScrollView>
         <Text>Open Camra</Text>
-      </TouchableOpacity>
-    </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
